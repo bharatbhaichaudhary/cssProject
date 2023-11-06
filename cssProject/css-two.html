@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .bg {
+            /* border: 5px solid red; */
+            min-width: 1250px;
+            background-image: url(./images/bg.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        header {
+            width: 100%;
+            padding: 20px 0;
+        }
+
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        li {
+            display: inline-block;
+            list-style: none;
+            padding: 0px 20px;
+        }
+
+        a {
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        .logo span {
+            background-color: black;
+            color: white;
+            padding: 2px;
+            font-size: 22px;
+        }
+
+        .logo h3 {
+            background-color: white;
+            color: black;
+            padding: 2px;
+            font-size: 20px;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        .contant {
+            width: 100%;
+            text-align: center;
+            padding: 100px 0px;
+        }
+
+        h5 {
+            color: black;
+            font-size: 22px;
+            padding: 10px 0;
+        }
+
+        h2 {
+            font-size: 80px;
+            color: black;
+            font-weight: 900;
+            padding: 10px 0;
+        }
+
+        p {
+            font-size: 20px;
+            color: black;
+            width: 62%;
+            margin: 10px auto;
+        }
+
+        button {
+            font-size: 22px;
+            padding: 5px 10px;
+            background-color: rgb(72, 72, 174);
+            margin: 20px 3px;
+        }
+
+        .line {
+            display: flex;
+            width: 62%;
+            margin: 0 auto;
+            justify-content: space-between;
+        }
+
+        .line div {
+            width: 40%;
+            background-color: #fff;
+            height: 5px;
+        }
+
+        .line span {
+            width: 10px;
+            height: 10px;
+            background-color: red;
+            border-radius: 50%;
+
+        }
+
+        .p-50 {
+            padding: 70px 0;
+        }
+
+        .icon i {
+            font-size: 25px;
+            color: black;
+        }
+
+        .flex {
+           min-width: 1250px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 300px;
+            /* border: 5px solid black; */
+            text-align: center;
+        }
+
+        .card i {
+            font-size: 60px;
+        }
+
+        .card p {
+            font-size: 15px;
+            padding: 0px;
+            width: 100%;
+        }
+
+        .card h3 {
+            font-size: 26px;
+            color: red;
+        }
+       .card .line{
+        width: 50%;
+        padding: 1px;
+        background-color: black;
+        margin: 6px auto;
+       }
+
+        @media (min-width:376px) {
+            .link {
+                display: none;
+            }
+
+            .icon {
+                display: block;
+            }
+            .card{
+            width: 100%;
+         }
+        }
+
+        @media (min-width:768px) {
+            .link {
+                display: block;
+            }
+
+            .icon {
+                display: none;
+            }
+            .card{
+            width: 50%;
+         }
+        }
+        @media (min-width:992px) {
+         .card{
+            width: 20%;
+         }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg">
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                        <h3><span>L</span>ogo</h3>
+                    </div>
+                    <div>
+                        <div class="link">
+                            <ul>
+                                <li><a href="#">home</a></li>
+                                <li><a href="#">about us</a></li>
+                                <li><a href="#">porfolio</a></li>
+                                <li><a href="#">pricing</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">contact</a></li>
+                            </ul>
+                            <div class="icon">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="container">
+            <div class="contant">
+                <h5>
+                    our clients are our first priority
+                </h5>
+                <h2>
+                    welcome to sky
+                </h2>
+                <div class="line">
+                    <div></div>
+                    <span></span>
+                    <div></div>
+                </div>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi ea iusto, temporibus at ipsa
+                    recusandae
+                    aspernatur laborum, necessitatibus sint fuga quas quam ipsum molestias? Eius dolorum fugiat id
+                    possimus
+                    debitis!
+                </p>
+                <div>
+                    <button>Get started now</button>
+                    <button>learn more</button>
+                </div>
+            </div>
+            <div class="p-50"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="flex">
+            <div class="card">
+                <i class="fa-light fa-diamond fa-rotate-90"></i>
+                <h3>sleek design</h3>
+                <p class="line"></p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam corporis optio
+                </p>
+            </div>
+            <div class="card">
+                <i class="fa-regular fa-heart"></i>
+                <h3>clean code</h3>
+                <p class="line"></p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam corporis optio
+                </p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-lightbulb"></i>
+                <h3>creative code</h3>
+                <p class="line"></p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam corporis optio
+                </p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>free support</h3>
+                <p class="line"></p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam corporis optio
+                </p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
